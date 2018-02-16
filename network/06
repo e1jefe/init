@@ -1,0 +1,2 @@
+1)  /etc/resolv.conf 
+2) cat resolv.conf | grep "nameserver" | awk '{print $2}'
